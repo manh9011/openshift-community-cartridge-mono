@@ -21,9 +21,9 @@ Under the "Type" drop down box choose "Git".
 
 Paste your git url you got at the end of the application creation wizard into the Url:// text box. Mine looks like
 "ssh://56ec24a72d5271d1c4000192@asp-rhcloud.com/~/git/asp.git"
-Chose a directory that does not exist for the "Target directory" I will use "/home/whearn/Projects/mono". Click on "OK". If you have git properly set up and your ssh key added to your OpenShift account you should see "Solution checked out".
+Chose a directory that does not exist for the "Target directory" I will use "/home/manh9011/Projects/mono". Click on "OK". If you have git properly set up and your ssh key added to your OpenShift account you should see "Solution checked out".
 
-Once that has finished click on "File" then "Open". Navigate to where you checked out your code(mine is /home/whearn/Projects/mono) and open OpenShift.csproj(Feel free to rename this.)
+Once that has finished click on "File" then "Open". Navigate to where you checked out your code(mine is /home/manh9011/Projects/mono) and open OpenShift.csproj(Feel free to rename this.)
 
 This project was created with Visual Studio 2012 so we need to fix a few things. In your solution explorer expand "OpenShift" and "References". Right click References and click on "Edit References". Click on the tab called ".Net Assembly". Navigate to where you checked out your project and go into the "bin" directory" Hold control and click on the following dll files:
  - Antlr3.Runtime.dll
