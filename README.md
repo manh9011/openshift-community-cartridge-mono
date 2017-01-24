@@ -20,7 +20,7 @@ Insite MonoDevelop click on the menu item labeled "Version Control" then click o
 Under the "Type" drop down box choose "Git".
 
 Paste your git url you got at the end of the application creation wizard into the Url:// text box. Mine looks like
-"ssh://56ec24a72d5271d1c4000192@asp-rhcloud.com/~/git/mono.git"
+"ssh://56ec24a72d5271d1c4000192@asp-rhcloud.com/~/git/asp.git"
 Chose a directory that does not exist for the "Target directory" I will use "/home/whearn/Projects/mono". Click on "OK". If you have git properly set up and your ssh key added to your OpenShift account you should see "Solution checked out".
 
 Once that has finished click on "File" then "Open". Navigate to where you checked out your code(mine is /home/whearn/Projects/mono) and open OpenShift.csproj(Feel free to rename this.)
