@@ -10,7 +10,7 @@ Getting Started with OpenShift and Mono
 ####Geting Started:
 Sign into your OpenShift account and click the Create Application tab.
 You then want to scroll to the VERY bottom and look for the text box that says: "URL to a cartridge defination"
-Paste https://raw.github.com/wshearn/openshift-community-cartridge-mono/master/metadata/manifest.yml into the text box and click "Next"
+Paste https://raw.github.com/manh9011/openshift-community-cartridge-mono/master/metadata/manifest.yml into the text box and click "Next"
 Give a name to your application, we will be using "mono" as the name through out rest of this.
 Once you have chosen a name click "Create Application" at the bottom.
 
@@ -20,7 +20,7 @@ Insite MonoDevelop click on the menu item labeled "Version Control" then click o
 Under the "Type" drop down box choose "Git".
 
 Paste your git url you got at the end of the application creation wizard into the Url:// text box. Mine looks like
-"ssh://51bcb3945973cac17a000040@mono-whearn.rhcloud.com/~/git/mono.git"
+"ssh://56ec24a72d5271d1c4000192@asp-rhcloud.com/~/git/mono.git"
 Chose a directory that does not exist for the "Target directory" I will use "/home/whearn/Projects/mono". Click on "OK". If you have git properly set up and your ssh key added to your OpenShift account you should see "Solution checked out".
 
 Once that has finished click on "File" then "Open". Navigate to where you checked out your code(mine is /home/whearn/Projects/mono) and open OpenShift.csproj(Feel free to rename this.)
